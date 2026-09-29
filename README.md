@@ -30,7 +30,7 @@ flux -s "fix login bug"
 ## 📦 Install
 
 ```bash
-git clone <this-repo> ~/code/flux
+git clone https://github.com/Comiclyy/flux.git ~/code/flux
 ln -s ~/code/flux/flux ~/bin/flux   # any folder on your PATH works
 ```
 
