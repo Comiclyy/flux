@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ flux
+# flux
 
 **Git, but simple.**
 
@@ -14,7 +14,7 @@ Save your work with one command, and get the latest with another.
 
 ---
 
-## 🚀 The two commands you need
+## The two commands you need
 
 ```bash
 flux -s        # save everything: pull → commit → push
@@ -27,14 +27,14 @@ flux sync      # get the latest changes
 flux -s "fix login bug"
 ```
 
-## 📦 Install
+## Install
 
 ```bash
 git clone https://github.com/Comiclyy/flux.git ~/code/flux
 ln -s ~/code/flux/flux ~/bin/flux   # any folder on your PATH works
 ```
 
-## 🧰 Everything else
+## Everything else
 
 | Command | Short | What it does |
 |---|:-:|---|
@@ -49,7 +49,7 @@ ln -s ~/code/flux/flux ~/bin/flux   # any folder on your PATH works
 > [!TIP]
 > Add `-y` to any command to skip questions, e.g. `flux -s -y` commits with an auto-generated message.
 
-## ✨ What it handles for you
+## What it handles for you
 
 - **Uncommitted changes when pulling**: they're set aside and restored automatically
 - **New branches**: the first push publishes them to the remote
